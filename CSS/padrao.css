@@ -1,0 +1,442 @@
+ /*página Home: */
+ body {
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+.banner {
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.9;
+	transition: 450ms;
+}
+
+.banner:hover {
+	opacity: 1;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+.titulo-principal_canal {
+	margin: 0 0 2em;
+	clear: left;
+	font-size: calc(1em + 3px);
+}
+
+.titulo-principal_canal:before {
+	content: "★ ";
+}
+
+.titulo-principal_beneficios {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 2em;
+	clear: left;
+}
+
+.utensilios {
+	width: 100px;
+	float: left;
+	margin: 0 15px 5px 0;
+}
+
+.principal {
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+	padding:  0 0 0;
+}
+
+.principal p {
+	margin: 0 0 1em;
+} 
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.beneficios {
+	clear: left;
+	background: #888888;
+	padding-bottom: 3em;
+	position: relative;
+}
+
+.conteudo-beneficios {
+	width: 1020px;
+	margin: 0px auto;
+	padding-bottom: 3em;
+}
+
+.painel {
+	display: inline-block;
+	border: 15px solid #000000;
+	border-radius: 10px;
+	height: calc(11em - 2px);
+    width: calc(44% + 2em - 2px);
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.painel:nth-child(1) {
+	background-color: green;
+	margin: 0 14px 0 0;
+}
+
+.painel:nth-child(2) {
+	background-color: cyan;
+	margin: 0 0 14px 14px;
+}
+
+.painel:nth-child(3) {
+	background: linear-gradient(orange, red);
+	margin: 14px 14px 14px 0;
+}
+
+.painel:nth-child(4) {
+	background-color: orange;
+	margin: 14px 0 14px 14px;
+}
+
+.painel:nth-child(5) {
+	background: linear-gradient(darkblue, red);
+	margin: 14px 14px 0 0;
+}
+
+.painel:nth-child(6) {
+	background: linear-gradient(#441111, darkorange);
+	margin: 14px 0 0 14px;
+}
+
+.fonte-painel{
+	text-align: center;
+}
+
+.frase_painel-bulbassauro {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 31px;
+    position: relative;
+    top: 48px;
+    left: 59px;
+} 
+
+.frase_painel-squirtle {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    position: relative;
+    top: 55px;
+    left: 80px;
+} 
+
+.frase_painel-charmander {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 38px;
+    position: relative;
+    top: 32px;
+    left: 45px;
+} 
+
+
+.frase_painel-pikachu {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 34px;
+    position: relative;
+    top: 38px;
+    left: 55px;
+} 
+
+
+.frase_painel-lucario {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 38px;
+    position: relative;
+    top: 52px;
+    left: 40px;
+} 
+
+
+.frase_painel-rayquaza {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+    position: relative;
+    top: 50px;
+    left: 65px;
+} 
+
+.painel-img {
+	display: inline-block;
+	position: absolute;
+
+}
+
+.painel-img:nth-child(1) {
+	top: calc(3em + 2em);
+	left: 200px;
+}
+
+.painel-img:nth-child(2) {
+	top: calc(40px + 2em);
+	right: 36em;
+}
+
+.painel-img:nth-child(3) {
+	
+	top: calc(15em + 2em);
+	left: 170px;
+}
+
+.painel-img:nth-child(4) {
+	top: calc(430px - 55px - 140px + 2em);
+	right: 628px;
+}
+
+.painel-img:nth-child(5) {
+	top: calc(28em + 2em);
+	left: 190px;
+}
+
+.painel-img:nth-child(6) {
+	top: calc(29em + 7px);
+	right: 590px;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0px auto;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+	margin: 0 0 3em;
+	text-align: center;
+}
+
+.canal {
+	background: #888888;
+}
+
+.video {
+	width: calc(78% + 4px);
+	margin: 0 auto;
+	padding: 0 0 2em;
+}
+
+.video li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.video li:first-child {
+	margin-right: 1.5%;
+}
+
+.video li:last-child {
+	margin-left: 1.5%;
+}
+
+
+/*Páginas dos Produtos:*/
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.img1 {
+	position: absolute;
+	top: 103px;
+	right: -53px;
+}
+
+.img2 {
+	position: absolute;
+	top: 103px;
+	right: 368px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #246371; 
+	text-decoration: underline;
+}
+
+nav a:active {
+	color: #225077;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	height: 425px;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	transition: 450ms;
+}
+
+.produtos li:first-child {
+	padding: 20px 20px 15px 20px;
+}
+
+
+.produtos li:hover {
+	border-color:#225077;
+	transform: scale(1.04);
+}
+
+.produtos li:hover h2 {
+	font-size: 1.9em;
+}
+
+.produtos li:active {
+	border-color: #8B4513;
+}
+
+.descricao {
+	font-size: 18px;
+}
+
+.preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+footer {
+	text-align: center;
+	background: url(../img/bg.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+/*  Contatos:  */
+
+
+.conteudo-contato {
+	width: 940px;
+	margin: 0 auto;
+}
+
+fieldset {
+	margin: 0 0 1em 0; 
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px auto 40px auto;
+	width: 400px;
+	text-align: center;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-size: bold;
+}
+
+td, th {
+	border: 1px #000000 solid;
+	padding: 8px 15px;
+}
+

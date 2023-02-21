@@ -1,0 +1,279 @@
+.titulo-principal {
+	padding: 25px 0 10px 20px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+header {
+	background: gold;
+}
+
+.caixa { 
+	width: 1470px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.pokeball {
+	display: inline;
+	position: absolute;
+	top: 18px;
+	/*right: 535px;*/
+	right: 142px;
+}
+
+.pokeballl {
+	display: inline;
+	position: absolute;
+	top: 18px;
+	right: 535px;
+	/*right: 142px;*/
+}
+
+#headerimg {
+	display: inline;
+	position: absolute;
+	top: 0px;
+	left: 270px;
+}
+
+nav {
+	position: absolute;
+	top: 26px;
+	right: 180px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #990000;
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	/*color: #127463;*/
+	/*color: #8B4513;*/
+	color:#000045;
+	text-decoration: underline;
+	font-size: 21px;
+}
+
+nav a:active {
+	/*color: #225077;*/
+	color: #CF0000;
+	text-decoration: underline;
+	font-size: 21px;
+
+}
+
+
+.principal{
+	padding: 20px;
+	background: #CCCCCC
+}
+
+.BANNERR {
+	background: #000000
+}
+
+#banner {
+	width: 80%;
+	margin: 20px 10%;
+	border-radius: 5px;
+}
+
+p {
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.titulo-centralizado {
+	padding-bottom: 17px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+#missao {
+	font-size: 25px;
+	margin: 10px 0;
+}
+ 
+
+#missao em {
+	font-style: italic;
+}
+
+em strong {
+	color: red;
+}
+
+.titulo-centralizadoo {
+
+	padding-top: 25px;
+	font-size: 40px;
+	padding-bottom: 17px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+.beneficios li {
+	display: inline-block;
+	width: 45%;
+	box-sizing: border-box;
+	margin: 10px 20px;	
+}
+
+
+
+
+
+
+
+#verde {
+	border-radius: 20px;
+	border: 15px;
+	border-style: solid;
+	background-color: green;
+}
+
+#azul {
+ 	border-radius: 20px;
+ 	border: 15px;
+	border-style: solid;
+/*	border-color: #120A8F;*/
+	background-color: cyan;
+}
+
+#laranja {
+ 	border-radius: 20px;
+ 	border: 15px;
+	border-style: solid;
+	background-color: red;
+}
+
+#amarelo {
+	
+	border-radius: 20px;
+	border: 15px;
+	border-style: solid;
+/*	border-color: #EEAD2D;*/
+	background-color: orange;
+}
+
+
+
+
+
+
+
+
+#imgbulbassauro {
+	position: relative;
+	right: 35px;
+}
+
+#imgcharmander {
+	position: relative;
+	right: 35px;
+}
+
+#imgsquirtle {
+	position: relative;
+	right: 35px;
+}
+
+#imgpikachu {
+	position: relative;
+	right: 35px;
+}
+
+
+
+
+
+
+
+
+#painelB {
+	display: inline;
+	position: relative;
+	bottom: 64px;
+	left: 8px;
+	vertical-align: center;
+	font-weight: bold;
+	font-size: 38px;
+
+}
+
+#painelS {
+	display: inline;
+	position: relative;
+	bottom: 58px;
+	left: 30px;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+
+#painelC {
+	display: inline;
+	position: relative;
+	bottom: 60px;
+	left: 27px;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#painelP {
+	display: inline-block;
+	position: relative;
+	bottom: 57px;
+	left: 18px;
+	font-weight: bold;
+	font-size: 38px;
+
+}
+
+.beneficios {
+	width: 90%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+footer {
+	background: url(bg.jpg);
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-top: 20px;
+	padding-top: 10px;
+}
