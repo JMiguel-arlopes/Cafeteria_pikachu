@@ -1,2 +1,2 @@
 
-https://github.com/JM-arlopes/desktop-tutorial.git
+https://github.com/JM-arlopes.git
